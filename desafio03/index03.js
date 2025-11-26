@@ -36,7 +36,7 @@ class Order {
         for (const item of this.items) {
             total += item.getSubtotal();
         }
-        return total;
+        return "O valor total do pedido é de: R$" + total 
     }
 }
 
